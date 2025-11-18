@@ -1,10 +1,10 @@
-import Home from "./LandingPage/page";
 
+import LandingPage from "./landing-page/page";
 
-export default function HomePage() {
+export default function Welcome() {
   return (
     <>
-      <Home />
+      <LandingPage />
     </>
   );
 }
